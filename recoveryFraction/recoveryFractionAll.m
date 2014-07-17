@@ -1,29 +1,25 @@
+function recoveryData = recoveryFractionAll(pigData, signalName, halfWidth)
 % RECOVERYFRACTIONALL calls recoveryFraction for all piglets in pigDataNTB
 % for signal 'signalName' with half width 'halfWidth'
 %
+% inputs:
+% pigData: pigDataNTB or pigDataPTB, use tools/loadData to load
+% signalName: name of signal to be analysed (spelled as in headers of pigData)
+% halfWidth: half width of the averaging-window
+% 
 % outputs:
 % recoveryData: matrix of with rows
 %     {LWP..., meanBaseline, stdBaseline, meanInsult, stdInsult, meanRecovered, stdRecovered, recoveryFraction}
 %
-% author: Lukas Beichert
-% date: 11/07/2014
+% Lukas Beichert, l.beichert@stud.uni-heidelberg.de
+% July 2014
 
-% load pigDataNTB into workspace before running
-
-if ~exist('pigDataNTB', 'var')
-    disp('load pigDataNTB into workspace first');
-    return
-end
-
-% which signal to analyse?
-signalName = 'HbDiff';
-halfWidth = 10;
 
 % array data is saved into
-recoveryData = cell(length(pigDataNTB), 7);
+recoveryData = cell(length(pigData), 7);
 
-for N = 1:length(pigDataNTB)
-    S =  pigDataNTB(N);
+for N = 1:length(pigData)
+    S =  pigData(N);
     [baselineData, insultData, recoveredData] = recoveryFraction(signalName,S, halfWidth);
     if ~strcmp(baselineData, 'stop')
         recoveryData{N,1} = S.subj; % #piglet
@@ -39,6 +35,4 @@ for N = 1:length(pigDataNTB)
     end
 end
 
-% tidy up
-clearList = {'signalName', 'halfWidth', 'N', 'S', 'baselineData', 'insultData', 'recoveredData', 'clearList'};
-clear(clearList{:});
+end

@@ -20,7 +20,9 @@ function [results] = diffsBeforeAfter(DataNTB,nameChrom,tempStart, tempTarget, p
 %  chromDiff(Std):        difference between chromStartMean & chromTargetMean (uncertainty)
 %  h:                     difference statistically significant? (1:yes, 0:no)
 %  p:                     p-Value of significance test
- 
+%
+% Lukas Beichert, l.beichert@stud.uni-heidelberg.de
+% June 2014
  
 c = find(strcmp(DataNTB(1).headers,nameChrom));
 

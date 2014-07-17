@@ -12,8 +12,8 @@ function [ baselineData, insultData, recoveredData ] = recoveryFraction( signalN
 % insultData = [meanInsult, stdInsult] : mean and standard deviation at insult
 % recoveredData = [meanAfter, stdAfter]; mean and standard deviation of last set of datapoints
 %
-% author: Lukas Beichert
-% date: 11/07/2014
+% Lukas Beichert, l.beichert@stud.uni-heidelberg.de
+% July 2014
 
 
 

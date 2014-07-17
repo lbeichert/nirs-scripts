@@ -1,6 +1,8 @@
-% OVERVIEWPLOTS create overview plots of (processed) piglet data and save them to files
+function [] = overviewPlots(pigDataNTB)
+% OVERVIEWPLOTS create overview plots of piglet data and save them to files
 % 
-% 
+% inputs:
+% pigDataNTB: 
 % requires tools/printFigure in path
 % 
 % Lukas Beichert, l.beichert@stud.uni-heidelberg.de
@@ -12,7 +14,7 @@ if ~exist('pigDataNTB', 'var')
 end
 
 % location the figures are saved to
-outputDir = 'output/overviewPlots';
+outputDir = 'output';
 if ~exist(outputDir, 'dir')
     mkdir(outputDir);
 end

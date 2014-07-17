@@ -1,4 +1,4 @@
-function pigDataNTB = loadData(suffix)
+function [] = loadData(suffix)
 % LOADDATA load (processed) pigData into workspace
 %
 % input:
@@ -25,4 +25,5 @@ end
 
 % save into variable 'pigDataNTB' used by other scripts
 pigDataNTB = Data.pigDataNTB;
+assignin('base', 'pigDataNTB', pigDataNTB);
 end
