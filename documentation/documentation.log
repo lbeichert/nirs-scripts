@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.9)  18 JUL 2014 12:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.9)  18 JUL 2014 13:50
 entering extended mode
 **documentation.tex
 (C:\Users\zcapldb\GitHub\nirs-scripts\documentation\documentation.tex
@@ -15,8 +15,8 @@ an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 (C:\Users\zcapldb\Programs\miktex\tex\latex\base\article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(C:\Users\zcapldb\Programs\miktex\tex\latex\base\size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -149,23 +149,397 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
+(C:\Users\zcapldb\Programs\miktex\tex\latex\listings\listings.sty
+\lst@mode=\count97
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count98
+\lst@currlwidth=\dimen107
+\lst@column=\count99
+\lst@pos=\count100
+\lst@lostspace=\dimen108
+\lst@width=\dimen109
+\lst@newlines=\count101
+\lst@lineno=\count102
+\lst@maxwidth=\dimen110
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count103
+\lst@skipnumbers=\count104
+\lst@framebox=\box27
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\listings\listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\todonotes\todonotes.sty
+Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\xkeyval\xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\xkeyval\xkeyval.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+\XKV@depth=\count105
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(C:\Users\zcapldb\Programs\miktex\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\00miktex\color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pdftex-def\pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count106
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen111
+\pgfutil@tempdimb=\dimen112
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgfutil-common-list
+s.tex))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\basiclayer\pgfcore.sty
+(C:\Users\zcapldb\Programs\miktex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\graphics\graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\graphics\trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\00miktex\graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\systemlayer\pgfsys.sty
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\systemlayer\pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgfkeysfiltered.cod
+e.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen115
+\pgf@y=\dimen116
+\pgf@xa=\dimen117
+\pgf@ya=\dimen118
+\pgf@xb=\dimen119
+\pgf@yb=\dimen120
+\pgf@xc=\dimen121
+\pgf@yc=\dimen122
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+ (C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\systemlayer\pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\systemlayer\pgfsys-common-pdf
+.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\systemlayer\pgfsyssoftpath.co
+de.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\systemlayer\pgfsysprotocol.co
+de.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmath.code.tex
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathcalc.code.tex
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathutil.code.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen123
+\pgfmath@count=\count113
+\pgfmath@box=\box29
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.code.te
+x
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.basic.c
+ode.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.trigono
+metric.code.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.random.
+code.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.compari
+son.code.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.base.co
+de.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.round.c
+ode.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.misc.co
+de.tex)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfunctions.integer
+arithmetics.code.tex)))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count114
+))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorepoints.code
+.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen124
+\pgf@picmaxx=\dimen125
+\pgf@picminy=\dimen126
+\pgf@picmaxy=\dimen127
+\pgf@pathminx=\dimen128
+\pgf@pathmaxx=\dimen129
+\pgf@pathminy=\dimen130
+\pgf@pathmaxy=\dimen131
+\pgf@xx=\dimen132
+\pgf@xy=\dimen133
+\pgf@yx=\dimen134
+\pgf@yy=\dimen135
+\pgf@zx=\dimen136
+\pgf@zy=\dimen137
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorepathconstru
+ct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen138
+\pgf@path@lasty=\dimen139
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorepathusage.c
+ode.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen140
+\pgf@shorten@start@additional=\dimen141
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorescopes.code
+.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count115
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcoregraphicstat
+e.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen142
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcoretransformat
+ions.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen143
+\pgf@pt@y=\dimen144
+\pgf@pt@temp=\dimen145
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorequick.code.
+tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcoreobjects.cod
+e.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorepathprocess
+ing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorearrows.code
+.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen146
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcoreshade.code.
+tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen147
+\pgf@sys@shading@range@num=\count116
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcoreimage.code.
+tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcoreexternal.co
+de.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box33
+))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorelayers.code
+.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcoretransparenc
+y.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\basiclayer\pgfcorepatterns.co
+de.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\modules\pgfmoduleshapes.code.
+tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box34
+)
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\modules\pgfmoduleplot.code.te
+x
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\compatibility\pgfcomp-version-0
+-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen148
+\pgf@nodesepend=\dimen149
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\compatibility\pgfcomp-version-1
+-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+)) (C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\utilities\pgfkeys.sty
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgfkeys.code.tex))
+(C:\Users\zcapldb\Programs\miktex\tex\latex\pgf\math\pgfmath.sty
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmath.code.tex))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\utilities\pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\math\pgfmath.code.tex)
+\pgffor@iter=\dimen150
+\pgffor@skip=\dimen151
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\frontendlayer\tikz\tikz.code.
+tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\libraries\pgflibraryplothandl
+ers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count117
+\pgfplotmarksize=\dimen152
+)
+\tikz@lastx=\dimen153
+\tikz@lasty=\dimen154
+\tikz@lastxsaved=\dimen155
+\tikz@lastysaved=\dimen156
+\tikzleveldistance=\dimen157
+\tikzsiblingdistance=\dimen158
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\modules\pgfmodulematrix.code.
+tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
+)
+\tikz@expandcount=\count125
+
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\frontendlayer\tikz\libraries\
+tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(C:\Users\zcapldb\Programs\miktex\tex\generic\pgf\frontendlayer\tikz\libraries\
+tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.0 (rcs-revision 1.7)
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\tools\calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count126
+\calc@Bcount=\count127
+\calc@Adimen=\dimen159
+\calc@Bdimen=\dimen160
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count128
+\calc@Cskip=\skip46
+)
+\c@@todonotes@numberoftodonotes=\count129
+)
+(C:\Users\zcapldb\Programs\miktex\tex\latex\placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
 (C:\Users\zcapldb\GitHub\nirs-scripts\documentation\documentation.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-\AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+\AtBeginShipoutBox=\box39
+Package hyperref Info: Link coloring OFF on input line 16.
 
 (C:\Users\zcapldb\Programs\miktex\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -173,53 +547,89 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (C:\Users\zcapldb\Programs\miktex\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count97
+\c@section@level=\count130
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
 
 (C:\Users\zcapldb\GitHub\nirs-scripts\documentation\documentation.out)
 (C:\Users\zcapldb\GitHub\nirs-scripts\documentation\documentation.out)
-\@outlinefile=\write3
+\@outlinefile=\write4
+\c@lstlisting=\count131
+
+(C:\Users\zcapldb\Programs\miktex\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen161
+\scratchbox=\box40
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen162
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks31
+) ABD: EveryShipout initializing macros
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 14.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+(Font)              <7> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 20.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 22.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 28.
+
+(C:\Users\zcapldb\Programs\miktex\tex\latex\base\omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 28.
+
+<LWP298_Argon_Raw.pdf, id=32, 845.1575pt x 597.23125pt>
+File: LWP298_Argon_Raw.pdf Graphic file (type pdf)
+
+<use LWP298_Argon_Raw.pdf>
+Package pdftex.def Info: LWP298_Argon_Raw.pdf used on input line 34.
+(pdftex.def)             Requested size: 310.4979pt x 219.41377pt.
  [1
 
-{C:/Users/zcapldb/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+{C:/Users/zcapldb/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
+zcapldb/GitHub/nirs-scripts/documentation/LWP298_Argon_Raw.pdf, page is rotated
+ 90 degrees>] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 
 (C:\Users\zcapldb\GitHub\nirs-scripts\documentation\documentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `documentation.out' has not changed.
-(rerunfilecheck)             Checksum: 9CE389E0AB569858415191511861800B;242.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+(rerunfilecheck)             Checksum: 7F9D3E0B4DB4A486C3F4DB51E39E29F5;310.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 4254 strings out of 493921
- 64520 string characters out of 3145272
- 138152 words of memory out of 3000000
- 7561 multiletter control sequences out of 15000+200000
- 8672 words of font info for 31 fonts, out of 3000000 for 9000
+ 16510 strings out of 493921
+ 312031 string characters out of 3145272
+ 366449 words of memory out of 3000000
+ 19542 multiletter control sequences out of 15000+200000
+ 7755 words of font info for 28 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,6n,28p,255b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/zcapldb/Programs/miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-C:/Users/zcapldb/Programs/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+ 62i,9n,76p,447b,1089s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/zcapldb/Programs/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+C:/Users/zcapldb/Programs/miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
 Users/zcapldb/Programs/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
 s/zcapldb/Programs/miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zc
 apldb/Programs/miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/zcapld
 b/Programs/miktex/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on documentation.pdf (1 page, 82640 bytes).
+Output written on documentation.pdf (2 pages, 116878 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
