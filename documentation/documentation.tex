@@ -93,7 +93,7 @@ recoveryFraction = \frac{recovery-insult}{baseline-insult} \cdot 100\%
 \end{figure}
 
 \section{tools}
-\subsection{loadData(suffix)}
+\subsection*{loadData(suffix)}
 Used like:
 
 \begin{lstlisting}
@@ -103,6 +103,13 @@ Used like:
 Loads pigData-structs of type 'suffix'(31p, 1h, cooling, ...) into workspace variable 'pigDataNTB'. 
 
 Expects the structs to be saved as files called 'pigData.m' under the location \url{pigletdatadir/argon-dex/output/suffix/}. The path to the data directory must be saved as MATLAB-appdata 'pigletdatadir'. This can be done by copying the 'startup.m' file from \url{/tools} to the home directory of MATLAB and editing it according to the local path or by integrating the lines into a pre-existing startup-file. 
+
+\subsection*{printFigure}
+Used like:
+\begin{lstlisting}
+>> printFigure(figureHandle,path)
+\end{lstlisting}
+Saves figure with handle figureHandle to path in .png and landscape .pdf format.
 
 
 
