@@ -29,7 +29,7 @@ for N = 1:length(pigData)
         recoveryData{N,5} = insultData(2); % std
         recoveryData{N,6} = recoveredData(1); % mean
         recoveryData{N,7} = recoveredData(2); % std
-        recoveryData{N,8} = ((baselineData(1)-insultData(1))/(recoveredData(1)-insultData(1)))*100; % recovery fraction
+        recoveryData{N,8} = ((recoveredData(1)-insultData(1))/(baselineData(1)-insultData(1)))*100; % recovery fraction
     else
         break;
     end

@@ -44,7 +44,7 @@ header = {'Piglet', 'Group', 'HbT', 'HbDiff', 'oxCCO', 'MABP', 'Heartrate', 'SpO
 col = [];
 col = [col, results(1).pigN, results(1).group];
 for j = [1,4,5,6,7,8]
-    col = [col,results(j).sChromDiff'];
+    col = [col,results(j).signalDiffStr'];
 end
 
 sheet = [header;col];
@@ -57,7 +57,7 @@ xlswrite([outputDir,'dba',id,'.xlsx'], sheet);
 col2 = [];
 col2 = [col2, results(1).pigN, results(1).group];
 for j = [1,4,5,6,7,8]
-    col2 = [col2, num2cell(results(j).chromDiff)];
+    col2 = [col2, num2cell(results(j).signalDiff)];
 end
 
 sheet2 = [header;col2];
