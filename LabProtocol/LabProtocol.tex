@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+
+\usepackage{mathptmx}
+\usepackage{todonotes}
+
+\author{L.Beichert}
+\title{File Structure and Protocol}
+\date{\today}
+
+\begin{document}
+
+\section{Data Files and Their Origins}
+\begin{itemize}
+\item NIRS-files (.tdf): NIRS work station under Desktop/My Documents/LWP???/
+\item systemic data files (.m): main Computer under C:/temp/LWP???/
+\item 31p MRS files (excel sheets): ask scanning physicist
+\end{itemize}
+
+\section{Structure for long-time saving}
+\begin{itemize}
+\item The data of one experiment LWPxxx from the study studyName  is to be saved on the main computer into the folder \todo {look up path} 'D://data/studyName/LWPxxx/' as follows:
+\begin{itemize}
+	\item the most recent study log goes into '/data/study-name/'
+	\item the NIRS files go into subfolder '/nirs'
+	\item the systemic files go into subfolder '/systemic'
+	\item the 31p excel sheets go into subfolder '/phosphorus'
+\end{itemize}
+\item Example:
+\begin{itemize}
+	\item data from experiment LWP330 from the argon-dex study goes into folder '??/data/		argon-dex/LWP330/'
+	\item NIRS files go into 'data/study-dir/LWP330/nirs'
+	\item systemic files go into 'data/study-dir/LWP330/systemic'
+	\item 31p excel sheet goes into 'data/study-dir/LWP330/phosphorus'
+\end{itemize}
+
+\end{itemize}
+
+\section{Backup to Nikoleta-Server}
+\begin{itemize}
+\item For a security backup the complete data is uploaded to the Nikoleta-Server regularly. The server contains a folder for each study \todo {exact structure of nikoletta server}  that is supposed to be identical with the study folder on the local computer.
+\item How to upload data to the Nikoleta server
+\begin{itemize}
+	\item On the main computer start FileZilla FTP Client
+	\item Go to File $\rightarrow$ Site Manager, select 'NikoletaServer', enter username and password and click connect
+	\item Navigate to the study directory both on the local and the remote site
+	\item In order to upload new 'LWP'-folder from the local site right-click on it an select 'Upload' in the context menu
+	\item After uploading the new data disconnect by clicking 'Server' $\rightarrow$ 'Disconnect'
+\end{itemize}
+\end{itemize}
+
+
+
+\end{document}
