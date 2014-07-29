@@ -1,0 +1,95 @@
+\documentclass[10pt]{article}
+
+\usepackage{hyperref}
+\usepackage{dirtree}
+\usepackage{listings}
+\lstset{basicstyle=\scriptsize}
+\usepackage{rotating}
+\parindent 0pt
+
+\title{Synchronisation of NIRS and Systemic Data}
+\author{L.Beichert}
+\date{July 2014}
+
+\begin{document}
+\maketitle
+
+Quick manual of how to get the script running that converts .tdf and systemic files into one combined matlab array.
+
+\paragraph*{Script Files}
+Download scripts from \url{http://www.github.com/aot/ucl-nirs-analysis}. 
+Unzip into MATLAB directory where you keep your scripts.
+
+%\paragraph{}
+\dirtree{%
+.1 MATLAB.
+.2 ucl-nirs-scripts.
+.3 func.
+.3 tarragona.
+.3 DataAnalyse$.$m.
+}
+
+
+\paragraph{Data Files}
+For the data files the following folder structure is expected:
+
+%\paragraph{}
+\dirtree{%
+.1 pigletdatadir. 
+.2 studydir.
+.3 LWPxxx.
+.4 nirs.
+.4 systemic.
+.4 phosphorus.
+.3 LWPxxy.
+.3 \dots.
+.3 LWPxxz.
+.3 output.
+.3 stud\_log(excelSheet).
+.3 31p\_log (excelSheet).
+.3 \dots .
+}
+
+where each LWPxxx folder contains the nirs, systemic and phosphorus files in its according subfolders. 'stud\_log.xlsx' is the study log taken during experiments. 
+It is not directly accessed by the scripts but is needed to create the sheets that are.
+
+\paragraph{Appdata and Path variables}
+For the scripts to run the appdata varible 'pigletdatadir' must be set to the according path by creating a file \emph{'startup.m'} in the 
+\href{http://www.mathworks.co.uk/help/matlab/matlab_env/matlab-startup-folder.html}{MATLAB startup folder} that contains: 
+
+\begin{lstlisting}
+% adjust path according to your own PC
+setappdata(0,'pigletdatadir', 'C:\User\pigletdatadir\');
+\end{lstlisting}
+
+Also the subdirectories 'func' and 'tarragona' of the ucl-nirs-analysis folder must be added to the MATLAB path. This can be done by adding to the \emph{'startup.m'} file:
+
+\begin{lstlisting}
+% adjust paths according to your own PC
+addpath('C:\MATLAB\ucl-nirs-analysis\func');
+addpath('C:\MATLAB\ucl-nirs-analysis\tarragona');
+\end{lstlisting}
+
+\paragraph*{Creation of Specific Log File}
+In order to synchronise the various data sources the script requires a spreadsheet containing the names of the files that are synchronised and the start time of the measurement (see example files for exact format). 
+This file is excpected in the studydir, it makes sense to name it like '31p\_log.xlsx' depending on the kind of data that is supposed to be analysed.
+
+\paragraph{Modifying the DataAnalyse Script}
+Then, the best way to proceed is to duplicate the example 'dataAnalyse.m' file and rename the new file to, for example, '31p\_DataAnalyse.m'. 
+This new script file must then be modified:
+\begin{itemize}
+\item ln.4: studyDir=... replace 'post-conditioning' with the name of the current studydir
+\item ln.21: fileSuffix=... change file suffix according to data analysed, for example to '31p'
+\item ln.23: excelExpLogFile=... replace 'eeg\_log.xlsx' with name of according log file, for example '31p\_log.xlsx'
+\item you may have to comment out line 11 (csch=...)
+\end{itemize}
+
+\paragraph{Output}
+Finally, run the script. Once it is done, two variables are created that contain the data. \emph{pigData} contains NIRS data only and \emph{pigDataNTB} contains synchronised NIRS and systemic data. 
+
+It makes sense to directly save these variables to a file by inserting the following line at the end of the new 'dataAnalyse' file:
+\begin{lstlisting}
+% saves the variables pigData and pigDataNTB to a file called pigData.m
+save([outputDir,filesep,fileSuffix,filesep,'pigData.m'], 'pigData', pigDataNTB');
+\end{lstlisting}
+\end{document}
