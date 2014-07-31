@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+
+\usepackage{hyperref}
+\usepackage{dirtree}
+\parindent 0pt
+
+\title{Modifications to ucl-nir-analysis in order to include 31P-data}
+\author{L.Beichert}
+\date{July 2014}
+
+\begin{document}
+\maketitle
+
+The modified version of the synchronisation script requires the same folder structure as the original ucl-nirs-analysis script with an additional subfolder \url{/phosphorus} to every \url{LWPXXX} folder containing the 31P data sheets. 
+
+\dirtree{%
+.1 pigletdatadir.
+.2 studyDir.
+.3 LWPXXX.
+.4 nirs.
+.4 systemic.
+.4 phosphorus.
+.5 LWPXXX\_insult\_analysis$.$xlsx.
+.3 LWPXXY.
+.3 LWPXXZ.
+.3 study\_log$.$xlsx.
+.3 31p\_log$.$xslx.
+.3 $\dots$.
+}
+
+
+\paragraph{}
+In order to read out the 31p data and synchronise it with the nirs/systemic data, the following modifications must be made to the folder containing the original ucl-nirs-analysis scripts:
+
+\begin{itemize}
+\item Copy the new file \emph{phosAnalyseAndSync.m} to the original \url{/func} folder.
+\item Also in the original \url{/func} folder, replace the original \emph{load31PData.m} with the new version
+\item Use the included files \emph{DataAnalyse\_31p.m} and \emph{31p\_log.xlsx} as templates and adjust them to the files you want to analyse and the folder topology on your PC.
+\item (If script runs very slowly: comment out lines 345-349 in \url{/tarragona/Broadband_Tarragona.m} )
+\end{itemize}
+
+\paragraph*{}
+Running \emph{DataAnalyse} will then create a variable \emph{pigDataPTB} that has the same basic structure as \emph{pigDataNTB} with additional rows of data for various MRS variables. 
+This variable is stored in a file called \emph{pigDataPTB} in the specified output folder.
+
+Note that for the synchronisation NIRS and systemic data are down-sampled to the sampling time of the 31p-data (usually 1min).
+
+\end{document}
